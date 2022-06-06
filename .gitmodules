@@ -1,0 +1,3 @@
+[submodule "libopenraw"]
+	path = libopenraw
+	url = https://gitlab.freedesktop.org/libopenraw/libopenraw.git

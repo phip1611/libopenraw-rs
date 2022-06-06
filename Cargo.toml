@@ -1,0 +1,10 @@
+[workspace]
+members = [
+    "ws/libopenraw-rs",
+    "ws/libopenraw-sys"
+]
+exclude = [
+    # the C-lib itself also uses a Rust project as a sub project
+    # (Git submodule)
+    "libopenraw"
+]

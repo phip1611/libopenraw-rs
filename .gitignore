@@ -1,0 +1,4 @@
+/target
+/Cargo.lock
+# used to install targets to from the C lib
+libopenraw-outdir

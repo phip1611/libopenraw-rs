@@ -1,0 +1,19 @@
+[package]
+name = "libopenraw-sys"
+description = """
+Low-level bindings for the libopenraw-library that is written in C.
+"""
+version = "0.0.1"
+edition = "2021"
+keywords = ["raw", "photography", "image", "openraw"]
+categories = ["external-ffi-bindings", "multimedia::images"]
+readme = "README.md"
+license = "MIT"
+homepage = "https://github.com/phip1611/libopenraw-rs"
+repository = "https://github.com/phip1611/libopenraw-rs"
+documentation = "https://docs.rs/ttfb"
+
+[dependencies]
+
+[build-dependencies]
+bindgen = "0.60.0"
